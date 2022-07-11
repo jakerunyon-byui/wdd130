@@ -242,6 +242,82 @@ button:hover {
   }
 }
 
+.coaches-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bombay-card {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.bombay-bio {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-family: var(--paragraph-font);
+    font-size: xx-large;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.forsberg-card {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.forsberg-bio {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-family: var(--paragraph-font);
+    font-size: xx-large;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.reaves-card {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.reaves-bio {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-family: var(--paragraph-font);
+    font-size: xx-large;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.schmidt-card {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.schmidt-bio {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    font-family: var(--paragraph-font);
+    font-size: xx-large;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.reddick-card {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.reddick-bio {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    font-family: var(--paragraph-font);
+    font-size: xx-large;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
 footer {
     background-color: #e40a27;
     padding: 25px 50px;
